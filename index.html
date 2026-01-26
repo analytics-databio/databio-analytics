@@ -45,6 +45,14 @@
       font-size: 1.3rem;
       font-weight: 700;
       color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    nav .logo img {
+      height: 45px;
+      width: auto;
     }
 
     nav ul {
@@ -630,7 +638,10 @@
 
   <nav>
     <div class="nav-content">
-      <div class="logo">DataBio Analytics</div>
+      <div class="logo">
+        <img src="https://i.ibb.co/99HVX2F4/logo.png" alt="DataBio Analytics Logo">
+        <span>DataBio Analytics</span>
+      </div>
       <ul>
         <li><a href="#services">Services</a></li>
         <li><a href="#pricing">Pricing</a></li>
@@ -685,13 +696,13 @@
       <div class="service-card">
         <div class="service-icon">📊</div>
         <h3>Exploratory Analysis</h3>
-        <p>Comprehensive visualization and preliminary assessment using Python. Identify patterns, distributions, and relationships in your data.</p>
+        <p>Comprehensive visualisation and preliminary assessment using Python. Identify patterns, distributions, and relationships in your data.</p>
       </div>
 
       <div class="service-card">
         <div class="service-icon">📈</div>
         <h3>Statistical Analysis and Modeling</h3>
-        <p>LMEM, GAM, SEM, and regression-based modeling in R. Publication-oriented inference with clear documentation of methods.</p>
+        <p>LMEM, GAM, SEM, and regression-based modelling in R. Publication-oriented inference with clear documentation of methods.</p>
       </div>
 
       <div class="service-card">
@@ -733,7 +744,7 @@
         <div class="trust-item">
           <div class="trust-icon">🎯</div>
           <h4>Domain Expertise</h4>
-          <p> Specialised in biology and environmental science data</p>
+          <p>Specialized in biology and environmental science data</p>
         </div>
         <div class="trust-item">
           <div class="trust-icon">✓</div>
@@ -850,7 +861,7 @@
         <div class="step-number">4</div>
         <div class="step-content">
           <h3>Analysis Phase</h3>
-          <p>I clean, analyse, and model your data using industry-standard tools. You'll be notified if any issues arise.</p>
+          <p>I clean, analyze, and model your data using industry-standard tools. You'll be notified if any issues arise.</p>
         </div>
       </div>
 
@@ -858,7 +869,7 @@
         <div class="step-number">5</div>
         <div class="step-content">
           <h3>Delivery</h3>
-          <p>Receive organised outputs: report (docx/pdf) and figures (TIFF).</p>
+          <p>Receive organized outputs: report (docx/pdf) and figures (TIFF).</p>
         </div>
       </div>
 
@@ -891,7 +902,7 @@
       </div>
 
       <div class="testimonial-card">
-        <p class="testimonial-text">"Fast, professional, and educational. I not only got my analysis done but actually learned how to interpret the results properly. Worth every ringgit."</p>
+        <p class="testimonial-text">"Fast, professional, and educational. I not only got my analysis done but also actually learned how to interpret the results properly. Worth every ringgit."</p>
         <div class="testimonial-author">
           <div class="author-avatar">SA</div>
           <div class="author-info">
@@ -1003,7 +1014,7 @@
 
       <div style="background: white; padding: 30px; border-radius: 16px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
         <h3 style="color: #0f172a; margin-bottom: 10px; font-size: 1.2rem;">What tools do you use?</h3>
-        <p style="color: #64748b; line-height: 1.7;">I primarily use R for statistical modelling and Python for data cleaning and exploratory analysis.</p>
+        <p style="color: #64748b; line-height: 1.7;">I primarily use R for statistical modelling and Python for data cleaning and exploratory analysis. </p>
       </div>
 
       <div style="background: white; padding: 30px; border-radius: 16px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
@@ -1039,7 +1050,10 @@
   <footer>
     <div class="footer-content">
       <div class="footer-section">
-        <h3>DataBio Analytics</h3>
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <img src="https://i.ibb.co/99HVX2F4/logo.png" alt="DataBio Analytics Logo" style="height: 40px; width: auto;">
+          <h3 style="margin: 0;">DataBio Analytics</h3>
+        </div>
         <p style="line-height: 1.7; margin-top: 15px;">Professional statistical analysis and modelling support for academic researchers in Malaysia.</p>
       </div>
 
